@@ -21,7 +21,6 @@ body {
 .label {
     display: flex;
     justify-content: space-between;
-    cursor: pointer;
 }
 
 .right {
@@ -92,3 +91,9 @@ body {
         max-width: 80vw;
     }
 }
+
+@media (hover: hover) {
+    .label:hover {
+      cursor: pointer;
+    }
+  }
