@@ -69,3 +69,7 @@ body {
 .item:active .label {
     color: #7d8aec;
 }
+
+.main:hover .item{
+    color: #fff;
+}
