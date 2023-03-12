@@ -5,7 +5,6 @@ body {
 }
 
 .main {
-    font-size: 1.3em;
     margin: 0 auto;
 }
 
@@ -76,18 +75,21 @@ body {
 
 @media (max-width: 1920px) {
     .main {
+        font-size: 1.3em;
         max-width: 30vw;
     }
 }
 
 @media (max-width: 820px) {
     .main {
+        font-size: 1.4em;
         max-width: 60vw;
     }
 }
 
 @media (max-width: 320px) {
     .main {
+        font-size: 1.1em;
         max-width: 80vw;
     }
 }
