@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: #3e5b61;
+    color: #fff;
+}
+
+.main {
+    font-size: 1.3em;
+    margin: 0 auto;
+    max-width: 30vw;
+}
+
+.main:hover {
+    color: #fff;
+} 
+
+.item {
+    margin-top: 4vh;
+    color: #7d8aec;
+}
+
+.label {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.right {
+    margin-right: 5%;
+    transition: all 0.5s;
+}
+
+.check {
+    appearance: none;
+}
+
+.mem img {
+    opacity: 0;
+    max-width: 0%;
+    transition: all 0.6s;
+}
+
+.check:checked ~ .mem img{
+    opacity: 1;
+    max-width: 100%;
+}
+
+.check:checked ~ .label {
+    color: #fff;
+}
+
+.check:checked ~ .label > .right {
+    transform: rotate(45deg);
+}
+
+.check:hover ~ .mem img{
+    opacity: 1;
+    max-width: 100%;
+} 
+
+.check:hover ~ .label > .right {
+    transform: rotate(45deg);
+}
+
+.item:active {
+    opacity: 0.5;
+}
+
+.item:active .label {
+    color: #7d8aec;
+}
