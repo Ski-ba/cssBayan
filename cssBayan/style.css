@@ -75,3 +75,9 @@ body {
 .main:hover .item{
     color: #fff;
 }
+
+@media (max-width: 820px) {
+    .main {
+        max-width: 60vw;
+    }
+}
